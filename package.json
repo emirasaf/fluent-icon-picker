@@ -1,0 +1,24 @@
+{
+  "name": "fluent-icon-picker",
+  "private": false,
+  "version": "1.0.0",
+  "description": "Fast, local-first web utility to browse, search, and copy Windows Segoe Fluent Icons as Figma-ready SVGs or Unicode glyphs.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "build:meta": "node scripts/build-meta.mjs",
+    "test:search": "node scripts/verify-search.mjs",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/opentype.js": "^1.3.10",
+    "typescript": "~7.0.2",
+    "vite": "^8.3.6"
+  },
+  "dependencies": {
+    "minisearch": "^7.2.0",
+    "opentype.js": "^2.0.0"
+  }
+}
